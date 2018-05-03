@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico');
+
+body {
+  background-color: black;
+  padding-top: 65px;
+}
+
+nav {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+#about {
+  margin-top: 20px;
+}
+
+#about, #projects, #contact {
+  font-family: "Indie Flower", cursive;
+}
+
+#boston {
+  height: 320px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 25px;
+}
+
+a:hover {
+  color: red;
+}
+
+.pics:hover {
+  box-shadow: 10px 10px 5px #888888;
+}
+
+footer {
+  color: white;
+  font-family: "Pacifico", cursive;
+}
+
+footer a {
+  font-size: 35px;
+}
+
+form {
+  font-family: "Times New Roman", serif;
+}
+
+textarea {
+  resize: none;
+}
