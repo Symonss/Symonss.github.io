@@ -2,10 +2,7 @@
     overflow: hidden;
     background-color:transparent;
 }
-img{
-    display: block;
-    align-self: center;
-}
+
 
 .topnav a {
     float: right;
@@ -57,9 +54,7 @@ img{
         text-align: left;
     }
 }
- body{
-     background: aliceblue;
- }
+
 
 #banner-top {
     height: 100vh;
