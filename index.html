@@ -6,41 +6,29 @@
 <link rel="stylesheet" href="style.css">
 <body>
 <!-- Top Navigation -->
-<div class="w3-container w3-margin-right w3-top ">
+<div class="topnav w3-card-4" id="myTopnav">
+    <a href="index.html" style="float: left;"><img src="kisumu.jpg" width="40" height="40" class="w3-circle" title="My logo" alt="Logo"></a>
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
+    <a href="#">Portfolio</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 
-    <div class="w3-bar w3-myfont w3-border w3-large w3-card-4 w3-light-grey">
-        <a href="index.html"><img src="kisumu.jpg" width="40" height="40" class="w3-circle" title="My logo" alt="Logo"></a>
-        <a href="#" class="w3-bar-item  w3-button w3-right w3-margin-right w3-hide-small">Home</a>
-        <a href="#" class="w3-bar-item w3-button w3-right w3-hide-small">About</a>
-        <a href="#" class="w3-bar-item w3-button w3-right w3-hide-small">Services</a>
-        <a href="#" class="w3-bar-item w3-button w3-right w3-hide-small">Portfolio</a>
-        <a href="#" class="w3-bar-item w3-button w3-right w3-hide-small">Contact</a>
-        <a href="#" class="w3-bar-item w3-button w3-right w3-hide-small">Blog</a>
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
-    </div>
-
-        <div id="Small-screen" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium">
-            <a href="#" class="w3-bar-item w3-button w3-right w3-margin w3-hide-small">Home</a>
-            <a href="#" class="w3-bar-item w3-button w3-right ">About</a>
-            <a href="#" class="w3-bar-item w3-button w3-right ">Services</a>
-            <a href="#" class="w3-bar-item w3-button w3-right ">Portfolio</a>
-            <a href="#" class="w3-bar-item w3-button w3-right ">Contact</a>
-            <a href="#" class="w3-bar-item w3-button w3-right ">Blog</a>
-        </div>
-
-    </div>
-
-
-    <script>
-        function myFunction() {
-            var x = document.getElementById("Small-screen");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
         }
-    </script>
+    }
+</script>
 
 
 </body>
