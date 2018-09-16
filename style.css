@@ -38,12 +38,19 @@
     .topnav a.icon {
         float: left;
         display: block;
+
+    }
+    .topnav {
+
+        background-color:darkslategray;
     }
 }
 
 @media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
+        background-color:darkslategray;
+
     }
 
     .topnav.responsive .icon {
@@ -106,3 +113,35 @@
         font-size: 33px;
     }
 }
+#about .about-btns {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.about-btns a {
+    padding: 15px 20px;
+    font-size: 18px;
+    font-family: 'Lato', arial, sans-serif;
+    font-weight: 400;
+    background: #0b93ee;
+    color: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+    opacity: .9;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+#about .about-btns a:hover { opacity: 1; }
+
+#about .about-btns a:first-child { padding: 17px 22px; }
+#about .about-btns a:first-child:hover { box-shadow: 2px 2px 14px rgba(0, 0, 0, .5); }
+#about .about-btns a:first-child:active { box-shadow: 2px 2px 6px rgba(0, 0, 0, .5); }

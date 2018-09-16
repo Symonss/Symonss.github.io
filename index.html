@@ -17,8 +17,8 @@
     <a href="#">Contact</a>
     <a href="#">Portfolio</a>
     <a href="#">Services</a>
-    <a href="#">About</a>
-    <a href="#">Home</a>
+    <a href="#About">About</a>
+    <a href="#banner-top">Home</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
@@ -27,9 +27,10 @@
     <h3> I'm a Full Stack Developer</h3>
     <h1 class=" w3-animate-zoom">Ready to build <span>quality software helpful</span> for <span>you</span> and your <span>businesses</span></h1>
 </div>
-<p class="w3-center w3-myfont w3-xxxlarge">About Me</p>
+<div  id="About">
+    <p class="w3-center w3-myfont w3-xxxlarge ">About Me</p>
 <div class="w3-container">
-    <div class="w3-row-padding ">
+    <div class="w3-row-padding  w3-metro-darken ">
 
         <div class="w3-col w3-third w3-hide-large w3-mobile" style="width:40%">
             <img src="kisumu.jpg"  class="w3-circle" style="width: 100%"  >
@@ -51,8 +52,15 @@
         <div class="w3-col w3-third  w3-hide-small  w3-hide-medium w3-mobile" style="width:40%">
             <img src="kisumu.jpg"  class="w3-card-4" style="width: 100%"  >
         </div>
+
+    <div class="about-btns">
+        <a href="https://symonss.github.io/SymonsCV/" target="_blank">My Resume <span>&#9944;</span></a>
+        <a href="#services" data-scroll>Services &amp; Skills &#8595;</a></button>
+    </div>
     </div>
 </div>
+</div>
+
 <script>
     function myFunction() {
         var x = document.getElementById("myTopnav");
