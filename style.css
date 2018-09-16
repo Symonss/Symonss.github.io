@@ -120,7 +120,7 @@
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .about-btns a {
@@ -145,3 +145,4 @@
 #about .about-btns a:first-child { padding: 17px 22px; }
 #about .about-btns a:first-child:hover { box-shadow: 2px 2px 14px rgba(0, 0, 0, .5); }
 #about .about-btns a:first-child:active { box-shadow: 2px 2px 6px rgba(0, 0, 0, .5); }
+
