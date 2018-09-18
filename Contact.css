@@ -3,9 +3,11 @@
 .Contact {
     max-width: 900px;
     margin: auto;
-    background: white;
+
     padding: 10px;
-}
+}body{
+    background-color: beige;
+ }
 
 #Portfoli {
     max-width: 1000px;
