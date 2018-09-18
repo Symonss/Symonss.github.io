@@ -23,10 +23,10 @@
     color: black;
 }
 
-.active {
+/*.active {
     background-color:beige;
     color: white;
-}
+}*/
 
 .topnav .icon {
     display: none;
@@ -42,14 +42,14 @@
     }
     .topnav {
 
-        background-color:darkslategray;
+        background-color:aliceblue;
     }
 }
 
 @media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
-        background-color:darkslategray;
+        background-color:aliceblue;
 
     }
 
