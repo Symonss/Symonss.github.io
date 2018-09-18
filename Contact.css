@@ -7,6 +7,14 @@
     padding: 10px;
 }
 
+#Portfoli {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],[type=email], select, textarea {
     width: 100%; /* Full width */
@@ -18,6 +26,7 @@ input[type=text],[type=email], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
